@@ -28,7 +28,7 @@ jobs:
         buildozer android debug
 
     - name: Upload APK
-      uses: actions/upload-artifact@v3.2.1
+      uses: actions/upload-artifact@v3.3.0
       with:
         name: james_app-apk
         path: bin/*.apk
